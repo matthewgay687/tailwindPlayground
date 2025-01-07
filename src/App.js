@@ -16,6 +16,7 @@ export default function App() {
       <hr />
 
       <div className='p-4 m-2 w-1/2'>
+        <h2 className='text-xl'>Typography:</h2>
         <p className='text-lg font-bold italic text-center'>
           Here is an example of some fun text with some different typography.
         </p>
@@ -27,6 +28,7 @@ export default function App() {
       <hr />
 
       <div className='p-4 m-2'>
+        <h2 className='text-xl'>Containers:</h2>
         <div class="container mx-auto px-4 m-2 border">
           This is a container div where the size automatically adjusts to the screen size. 
         </div>
@@ -38,11 +40,11 @@ export default function App() {
       <hr />
 
       <div className='p-4 m-2 w-1/2'>
+        <h2 className='text-xl'>Navigation/Flexbox:</h2>
         <p>
           Next is an example of a navbar using flex built with tailwind:
         </p>
       </div>
-
       <nav class="flex items-center justify-between p-4">
         <div>Nav 1</div>
         <div>Nav 2</div>
@@ -54,14 +56,30 @@ export default function App() {
       <hr />
 
       <div className='p-4 m-2 w-1/2'>
+        <h2 className='text-xl'>Columns:</h2>
         <p>
-          Next is a multi-column layout:
+          Next is a multi-column layout with borders so you can see them:
         </p>
       </div>
       <div className='grid grid-cols-3 gap-4 p-4 m-2'>
         <div className='border'>column1</div>
         <div className='border'>column2</div>
         <div className='border'>column3</div>
+      </div>
+
+      <hr />
+
+      <div className='p-4 m-2 w-1/2'>
+        <h2 className='text-xl'>Forms:</h2>
+        <form className='flex flex-col m-2'>
+          <div className='step-1 p-2'>
+            <label class="font-bold mb-2">Name</label>
+            <input class="border p-2 w-full" />
+          </div>
+          <div className='step-2 p-2'>
+            <button class="bg-blue-500 text-white p-2">Submit</button>
+          </div>
+        </form>
       </div>
 
       <hr />
