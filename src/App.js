@@ -7,7 +7,7 @@ export default function App() {
         TailwindCSS Playground!
       </h1>
 
-      <div className='p-4 m-2 w-1/2'>
+      <div className='section'>
         <p>
           Welcome in! Enjoy this showcase of a bunch of different html with tailwindcss styling
         </p>
@@ -15,7 +15,7 @@ export default function App() {
 
       <hr />
 
-      <div className='p-4 m-2 w-1/2'>
+      <div className='section'>
         <h2 className='text-xl'>Typography:</h2>
         <p className='text-lg font-bold italic text-center'>
           Here is an example of some fun text with some different typography.
@@ -39,7 +39,7 @@ export default function App() {
 
       <hr />
 
-      <div className='p-4 m-2 w-1/2'>
+      <div className='section'>
         <h2 className='text-xl'>Navigation/Flexbox:</h2>
         <p>
           Next is an example of a navbar using flex built with tailwind:
@@ -55,7 +55,7 @@ export default function App() {
 
       <hr />
 
-      <div className='p-4 m-2 w-1/2'>
+      <div className='section'>
         <h2 className='text-xl'>Columns:</h2>
         <p>
           Next is a multi-column layout with borders so you can see them:
@@ -69,7 +69,7 @@ export default function App() {
 
       <hr />
 
-      <div className='p-4 m-2 w-1/2'>
+      <div className='section'>
         <h2 className='text-xl'>Forms:</h2>
         <form className='flex flex-col'>
           <div className='step-1 py-2'>
@@ -104,6 +104,21 @@ export default function App() {
             </tr>
           </tbody>
         </table>
+      </div>
+
+      <hr />
+
+      <div className='section'>
+        <h2 className='text-xl'>Cards:</h2>
+        <div class="p-4 rounded shadow max-w-md border my-2">
+          <h3 class="font-bold text-xl mb-2">
+            Card Title
+          </h3>  
+          Card content
+          <button class="bg-blue-500 text-white p-2 block mt-4">
+            Call to action
+          </button>
+        </div>
       </div>
 
       <hr />
