@@ -71,15 +71,39 @@ export default function App() {
 
       <div className='p-4 m-2 w-1/2'>
         <h2 className='text-xl'>Forms:</h2>
-        <form className='flex flex-col m-2'>
-          <div className='step-1 p-2'>
+        <form className='flex flex-col'>
+          <div className='step-1 py-2'>
             <label class="font-bold mb-2">Name</label>
             <input class="border p-2 w-full" />
           </div>
-          <div className='step-2 p-2'>
+          <div className='step-2 py-2'>
             <button class="bg-blue-500 text-white p-2">Submit</button>
           </div>
         </form>
+      </div>
+
+      <hr />
+
+      <div className='p-4 m-2'>
+        <h2 className='text-xl'>Data Tables:</h2>
+        <table class="border-collapse table-auto w-full text-sm my-2">
+          <thead>
+            <tr>
+              <th class="border p-4">Col 1</th>
+              <th class="border p-4">Col 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-grey-lighter">
+              <td class="border p-4">Data 1</td> 
+              <td class="border p-4">Data 2</td>
+            </tr>
+            <tr class="hover:bg-grey-lighter">
+              <td class="border p-4">Data 3</td> 
+              <td class="border p-4">Data 4</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <hr />
